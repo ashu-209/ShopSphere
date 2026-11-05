@@ -1,0 +1,108 @@
+[
+  {
+    "orderId": "6b885a46-7e96-414b-a145-44c7ca53d7e8",
+    "customerName": "a",
+    "customerAddress": "qs",
+    "items": [
+      {
+        "productId": "p4",
+        "name": "Travel Backpack",
+        "unitPrice": 999,
+        "quantity": 1,
+        "subtotal": 999
+      }
+    ],
+    "total": 999,
+    "status": "placed",
+    "createdAt": "2026-10-28T20:19:35.949Z"
+  },
+  {
+    "orderId": "f6cf863c-fbd5-4915-8aaf-a54853f0f8e3",
+    "customerName": "dede",
+    "customerAddress": "ccwcw",
+    "items": [
+      {
+        "productId": "p3",
+        "name": "Running Shoes",
+        "unitPrice": 1799,
+        "quantity": 2,
+        "subtotal": 3598
+      }
+    ],
+    "total": 3598,
+    "status": "placed",
+    "createdAt": "2026-10-28T20:22:56.295Z"
+  },
+  {
+    "orderId": "908c5ed6-0cbc-4ffc-9d43-dee825caec6a",
+    "customerId": null,
+    "customerName": "km",
+    "customerAddress": "mhl",
+    "items": [
+      {
+        "productId": "p1",
+        "name": "Wireless Headphones",
+        "unitPrice": 1499,
+        "quantity": 2,
+        "subtotal": 2998
+      }
+    ],
+    "total": 2998,
+    "status": "placed",
+    "createdAt": "2026-10-29T07:54:15.546Z"
+  },
+  {
+    "orderId": "f625b5b2-984d-499e-a0bd-bfe908a21936",
+    "customerId": "4c45c16b-b6db-4bda-aa7e-569a580de7b7",
+    "customerName": "km",
+    "customerAddress": "mhl",
+    "items": [
+      {
+        "productId": "p3",
+        "name": "Running Shoes",
+        "unitPrice": 1799,
+        "quantity": 1,
+        "subtotal": 1799
+      }
+    ],
+    "total": 1799,
+    "status": "placed",
+    "createdAt": "2026-10-29T07:58:57.415Z"
+  },
+  {
+    "orderId": "313fb2da-cca3-4c52-b2e3-568c7b282324",
+    "customerId": "872348aa-c883-4a6e-bad4-6fe92acc0d09",
+    "customerName": "asha",
+    "customerAddress": "home",
+    "items": [
+      {
+        "productId": "p2",
+        "name": "Smart Watch",
+        "unitPrice": 2499,
+        "quantity": 1,
+        "subtotal": 2499
+      }
+    ],
+    "total": 2499,
+    "status": "placed",
+    "createdAt": "2026-10-30T07:44:57.041Z"
+  },
+  {
+    "orderId": "0d6bb06b-456c-4c4c-8641-19ea009a02d8",
+    "customerId": "872348aa-c883-4a6e-bad4-6fe92acc0d09",
+    "customerName": "ashaa",
+    "customerAddress": "jadlaa",
+    "items": [
+      {
+        "productId": "p3",
+        "name": "Running Shoes",
+        "unitPrice": 1799,
+        "quantity": 1,
+        "subtotal": 1799
+      }
+    ],
+    "total": 1799,
+    "status": "placed",
+    "createdAt": "2026-10-30T07:49:37.024Z"
+  }
+]

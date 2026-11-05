@@ -1,0 +1,26 @@
+[
+  {
+    "id": "a514c03e-9c07-4192-8c6c-0d4ac2f7358b",
+    "name": "Test Customer",
+    "email": "testcustomer@example.com",
+    "salt": "93e8f324e3812db6088706e2fff01337",
+    "passwordHash": "6568c8d835dad25675762a23db4d619ca5a5ed1813f3161e24d7a7cc12ec810794742dadf8c3077c9c416d7409593803397db5490d322450154ea7a8c9cc55b6",
+    "createdAt": "2026-10-29T07:16:22.607Z"
+  },
+  {
+    "id": "4c45c16b-b6db-4bda-aa7e-569a580de7b7",
+    "name": "Karan Munjal",
+    "email": "munjalkaran25@gmail.com",
+    "salt": "cc88672ad78bc1b31bb44b78df7f96c3",
+    "passwordHash": "58b9672f09065cdc3c721bebc17364acd678a8168692628b76e4e422751209395226a8377ca24cefaa276a8e5414a8e3dd87da351c396096fac4082f2349e284",
+    "createdAt": "2026-10-29T07:53:47.829Z"
+  },
+  {
+    "id": "872348aa-c883-4a6e-bad4-6fe92acc0d09",
+    "name": "Asha",
+    "email": "asha@gmail.com",
+    "salt": "a7f8c5ecc44719e0bd6b77ad639764c2",
+    "passwordHash": "dee4ef8336ebcb1499e4d5667e8476ee24093d8f924504a48cdb2e92598e79cb74f7cd81505f2192866c0ab1a93c854a65a8a4a0b6b70a0e99dbef2d706653db",
+    "createdAt": "2026-10-30T07:43:51.345Z"
+  }
+]
