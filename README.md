@@ -1,16 +1,84 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# ShopSphere – Project Setup Guide
 
-Currently, two official plugins are available:
+## Step 1: Install frontend dependencies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+In the first terminal, make sure you are in the main ShopSphere project folder, where the root `package.json` is located.
 
-## React Compiler
+Run:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+```
 
-## Expanding the Oxlint configuration
+Wait until the installation finishes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Step 2: Install backend dependencies
+
+Open a second terminal in VS Code.
+
+Navigate to the backend folder:
+
+```bash
+cd server
+```
+
+Install the backend dependencies:
+
+```bash
+npm install
+```
+
+Wait for the installation to finish.
+
+## Step 3: Start the backend server
+
+In the second terminal, make sure you are inside the `server` folder.
+
+Run:
+
+```bash
+npm run dev
+```
+
+Keep this terminal open. The backend should start on:
+
+`http://localhost:5000`
+
+Do not close this terminal while using the application.
+
+## Step 4: Start the frontend
+
+Return to the first terminal, which should be in the main ShopSphere project folder.
+
+Run:
+
+```bash
+npm run dev
+```
+
+Vite should display a local URL, usually:
+
+`http://localhost:5173`
+
+Open that URL in Chrome to use ShopSphere.
+
+## Step 5: Test the project
+
+Try the following features:
+
+1. Browse the product catalog.
+2. Add products to the cart and wishlist.
+3. Create a customer account.
+4. Log in and log out.
+5. Place a demo order.
+6. Open your account menu and check your order history.
+
+## Important notes
+
+- Keep both terminal windows running while using ShopSphere.
+- Use `Ctrl + C` in the relevant terminal to stop a server.
+- To start the project again later, open the project in VS Code and repeat Steps 5 and 6. You do not normally need to run `npm install` again unless dependencies change or `node_modules` is missing.
+- The current project uses local JSON files for its demo products, customers and orders. MongoDB is not required.
+- Customer accounts and demo orders are stored locally in the backend project files. This is a demonstration setup, not a production deployment.
+- If a command fails, check that you are in the correct folder and that Node.js is installed correctly.
